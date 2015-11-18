@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+}
+body {
+	padding: 30px 0;
+	text-align: center;
+	font-family: Arial, Verdana, Sans-serif;
+}
+#wrapper {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.dark {
+	background: #333;
+	position: absolute;
+	z-index: 2;
+}
+.horizontal_one {
+	height: 1px;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+.vertical_one {
+	height: 0;
+	width: 1px;
+	top: 0;
+	left: 299px;
+}
+.horizontal_two {
+	height: 1px;
+	width: 300px;
+	top: 299px;
+	left: 300px;
+}
+.vertical_two {
+	height: 300px;
+	width: 1px;
+	top: 300px;
+	left: 0;
+}
+.vertical {
+	height: 20px;
+}
+.vertical_left {
+	width: 300px;
+	left: -300px;
+}
+.vertical_right {
+	width: 300px;
+	left: 300px;
+}
